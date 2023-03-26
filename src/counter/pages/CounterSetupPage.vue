@@ -29,20 +29,4 @@ const { increment, incrementBy } = counterOptions;
 .wrapper {
   text-align: center;
 }
-
-button {
-  background-color: transparent;
-  border-radius: 5px;
-  border: 1px solid var(--color-border);
-  color: var(--color-text);
-  cursor: pointer;
-  margin-right: 5px;
-  padding: 10px;
-  transition: all 0.5s;
-}
-
-button:hover {
-  background-color: hsla(160, 100%, 37%, 0.2) !important;
-  transition: all 0.5s !important;
-}
 </style>

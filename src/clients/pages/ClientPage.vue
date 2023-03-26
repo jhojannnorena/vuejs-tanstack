@@ -40,13 +40,14 @@ watch(isError, () => {
 
 <template>
   <div class="wrapper">
-    <h3 v-if="isUpdating" class="transition">Guardando...</h3>
-    <h3 v-if="isUpdatingSuccess" class="transition">Guardado</h3>
-
+    <h1>Cliente</h1>
+    <div class="alert">
+    <h4 v-if="isUpdating" class="transition">Guardando...</h4>
+    <h4 v-if="isUpdatingSuccess" class="transition">Guardado</h4>
+  </div>
     <LoadingModal v-if="isLoading" />
 
     <div v-if="client">
-      <h1>{{ client.name }}</h1>
       <form @submit.prevent="updateClient(client!)">
         <input
           type="text"
@@ -78,5 +79,15 @@ button {
 
 .transition{
    transition: all 5s;
+}
+
+h1{
+  text-align: center;
+}
+
+.alert{
+  color: red;
+  margin-bottom: 1em;
+  height: 20px;
 }
 </style>

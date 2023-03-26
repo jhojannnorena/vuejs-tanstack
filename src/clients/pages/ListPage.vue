@@ -9,6 +9,7 @@ const { isLoading, clients, currentPage, totalPages, getPage } = useClients();
 
 <template>
   <div class="wrapper">
+    <h1>Clientes</h1>
     <h3>Listado de Clientes</h3>
 
     <!-- ! Client List -->
@@ -28,7 +29,7 @@ const { isLoading, clients, currentPage, totalPages, getPage } = useClients();
 </template>
 
 <style scoped>
-h3{
+h3, h1{
   text-align: center;
   margin-bottom: 1em;
 }
