@@ -1,37 +1,37 @@
-# piniaApp Demostración
+# piniaApp Demo
 
 ## Dev
 Pasos
 
-1. Clonar el proyecto
+1. Clone the project
 
-2. Ejecutar 
+2. Run 
 ```
 yarn install
-npminstall 
+npm install 
 ```
 
-3. Levantar el backend server
+3. Raise the backend server
 ```
 npm run backend-server
 yarn backend-server
 ```
 
-4. Ejecutar la aplicación de Vue.js
+4. Run the Vue.js application
 ```
 npm run dev
 yarn dev
 ```
 
-# Información de Tecnologías Usadas
+# Technologies Used
 
 - <a href="https://vuejs.org/">Vue 3.2</a>
 - <a href="https://www.typescriptlang.org/">TypeScript</a>
-- <a href="https://pinia.vuejs.org/">Pinia Store (Sucesor de Vuex)</a>
+- <a href="https://pinia.vuejs.org/">Pinia Store</a>
 - <a href="https://tanstack.com/">TanStack Query 4 - For Vue</a>
 - <a href="https://www.npmjs.com/package/json-server/">JSON Server (How DB)</a>
 
-# Uso de Practicas
+# Use of Practices
 
 - Clean Code
 - Composable / Adapters
